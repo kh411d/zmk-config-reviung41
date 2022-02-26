@@ -13,10 +13,11 @@
 
         behaviors {
                 entdqt: enter_dquote {
-                compatible = "zmk,behavior-mod-morph";
-                label = "ENTER_DQUOTE";
-                bindings = <&kp ENTER>, <&kp DQT>;
-                mods = <MOD_LSFT>;
+                        compatible = "zmk,behavior-mod-morph";
+                        label = "ENTER_DQUOTE";
+                        #binding-cells = <0>;
+                        bindings = <&kp ENTER>, <&kp DQT>;
+                        mods = <(MOD_LSFT)>;
                 };
         };
 
