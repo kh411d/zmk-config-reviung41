@@ -32,28 +32,28 @@
 
                 default_layer {
                         bindings = <
-   &kp TAB         &kp Q    &kp W    &kp E    &kp R     &kp T              &kp Y    &kp U    &kp I       &kp O     &kp P      &kp BSPC
-   &mt LCTRL CAPS  &kp A    &kp S    &kp D    &kp F     &kp G              &kp H    &kp J    &kp K       &kp L     &kp SEMI   &entdqt
-   &kp LSHFT       &kp Z    &kp X    &kp C    &kp V     &kp B              &kp N    &kp M    &kp COMMA   &kp DOT   &kp FSLH   &mt RSHFT BSLH
-                                              &kp LALT  &mo 1  &kp SPACE   &mo 2    &kp RGUI 
+   &kp TAB     &kp Q    &kp W    &kp E    &kp R     &kp T              &kp Y    &kp U    &kp I       &kp O     &kp P      &kp BSPC
+   &kp LCTRL   &kp A    &kp S    &kp D    &kp F     &kp G              &kp H    &kp J    &kp K       &kp L     &kp SEMI   &entdqt
+   &kp LSHFT   &kp Z    &kp X    &kp C    &kp V     &kp B              &kp N    &kp M    &kp COMMA   &kp DOT   &kp FSLH   &mt RSHFT BSLH
+                                          &kp LALT  &mo 1  &kp SPACE   &mo 2    &kp RGUI 
                         >;
                 };
 
                 lower_layer {
                         bindings = <
-   &tldesc   &kp EXCL  &kp AT    &kp HASH    &kp DLLR   &kp PRCNT               &kp CARET &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR    &kp BSPC
-   &trans    &kp F1    &kp F2    &kp F3      &kp F4     &kp F5                  &kp F6    &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC    &kp DQT
-   &trans    &kp F7    &kp F8    &kp F9      &kp F10    &kp F11                 &kp F12   &kp MINUS  &kp LT    &kp GT    &kp QMARK   &kp PIPE
-                                             &trans     &trans       &trans     &mo 3     &trans
+   &tldesc   &kp EXCL  &kp AT    &kp HASH  &kp DLLR   &kp PRCNT               &kp CARET  &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR    &kp BSPC
+   &trans    &kp HOME  &kp LEFT  &kp UP    &kp DOWN   &kp RIGHT               &kp PG_UP  &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC    &kp DQT
+   &trans    &kp END   &kp LEFT  &kp DOWN  &kp RIGHT  &kp CAPS                &kp PG_DN  &kp MINUS  &kp LT    &kp GT    &kp QMARK   &kp PIPE
+                                           &trans     &trans       &trans     &mo 3      &trans
                         >;
                 };
 
                 raise_layer {
                         bindings = <
-   &kp GRAVE &kp N1    &kp N2    &kp N3    &kp N4     &kp N5               &kp N6     &kp N7     &kp N8     &kp N9    &kp N0     &kp DEL
-   &trans    &kp CAPS  &kp LEFT  &kp UP    &kp DOWN   &kp RIGHT            &kp EXCL   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp SQT
-   &trans    &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT  &kp END              &kp TILDE  &kp PLUS   &kp LT     &kp GT    &kp COLON  &kp PIPE
-                                           &trans     &mo 3      &trans    &trans     &trans
+   &kp GRAVE       &kp N1    &kp N2    &kp N3    &kp N4     &kp N5             &kp N6     &kp N7     &kp N8     &kp N9    &kp N0     &kp DEL
+   &mt LCTRL F1    &kp F2    &kp F3    &kp F4    &kp F5     &kp F6             &kp EXCL   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp SQT
+   &mt LSHFT F7    &kp F8    &kp F9    &kp F10   &kp F11    &kp F12            &kp TILDE  &kp PLUS   &kp LT     &kp GT    &kp COLON  &kp PIPE
+                                                 &trans     &mo 3    &trans    &trans     &trans
                         >;
                 };
 
