@@ -132,7 +132,7 @@
                         bindings = <
    &kp ESC   &kp F1    &kp F2    &kp F3    &kp F4    &kp F5             &trans  &trans  &trans  &trans  &trans  &trans
    &kp LALT  &kp N1    &kp N2    &kp UP    &kp N3    &kp N4             &trans  &trans  &trans  &trans  &trans  &trans
-   &kp LCTRL &kp GRAVE &kp LEFT  &kp DOWN  &kp RIGHT &kp to 0           &trans  &trans  &trans  &trans  &trans  &trans
+   &kp LCTRL &kp GRAVE &kp LEFT  &kp DOWN  &kp RIGHT &to 0              &trans  &trans  &trans  &trans  &trans  &trans
                                            &trans    &trans    &trans   &trans  &trans
                         >;
                 };
