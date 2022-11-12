@@ -63,16 +63,12 @@
                 tap-ms = <5>;
                 wait-ms = <0>;
                 bindings
-                    = <&macro_press &kp A>
-                    , <&macro_press &kp S>
+                    = <&macro_press &kp A &kp S>
                     , <&macro_release &kp A>
-                    , <&macro_press &kp D>
+                    , <&macro_press &kp S &kp D>
                     , <&macro_release &kp S>
-                    , <&macro_press &kp W>
-                    , <&macro_release &kp D>
-                    , <&macro_press &kp A>
-                    , <&macro_release &kp W>
-                    , <&macro_release &kp A>
+                    , <&macro_press &kp D &kp W>
+                    , <&macro_release &kp D &kp W>
                     ;
             };
         };
