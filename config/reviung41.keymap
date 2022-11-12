@@ -56,19 +56,21 @@
                     ;
             };
             
-            wasd360: wasd360 {
-                label = "ZM_arrow360";
+            asdw360: asdw360 {
+                label = "ZM_asdw360";
                 compatible = "zmk,behavior-macro";
                 #binding-cells = <0>;
                 tap-ms = <5>;
                 wait-ms = <0>;
                 bindings
                     = <&macro_press &kp A &kp S>
-                    , <&macro_release &kp A>
+                    , <&macro_release &kp A &kp S>
                     , <&macro_press &kp S &kp D>
-                    , <&macro_release &kp S>
+                    , <&macro_release &kp S &kp D>
                     , <&macro_press &kp D &kp W>
                     , <&macro_release &kp D &kp W>
+                    , <&macro_press &kp W &kp A>
+                    , <&macro_release &kp W &kp A>
                     ;
             };
         };
@@ -117,7 +119,7 @@
    &kp F1     &kp N1     &kp N2   &kp N3   &kp N4    &kp N5                &kp T      &kp Y   &kp U  &kp I   &kp O      &kp BSPC
    &kp LALT   &kp Z      &kp Q    &kp W    &kp E     &kp R                 &kp G      &kp H   &kp J  &kp K   &kp L      &kp ENTER
    &kp LCTRL  &kp LSHFT  &kp A    &kp S    &kp D     &kp F                 &kp V      &kp B   &kp N  &kp M   &kp COMMA  &kp RSHFT
-                                           &kp X     &kp SPACE   &lt 5 C   &kp SPACE  &wasd360
+                                           &kp X     &kp SPACE   &lt 5 C   &kp SPACE  &asdw360
                         >;
                 };
                 
